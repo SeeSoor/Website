@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Dancing+Script:wght@400..700&family=Great+Vibes&display=swap');
+
+
+*{
+    text-decoration: none;
+}
+
+body{
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0;
+    
+
+}
+
+.grid-item1{
+    background: url(img/background1.jpg) no-repeat;
+    background-size: cover;
+    padding: 10px;
+    color: 000;
+    font-size: 30px;
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.grid-item1 p{
+    font-size: 70px;
+    font-weight: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Dancing Script;
+    margin: 0;
+}
+
+.grid-item1 .text{
+margin: 0;
+margin-top: 150px;
+}
+
+.grid-item1 .sdt{
+    margin: 0;
+    margin-top: 100px;
+    font-size: 40px;
+    font-family: Poppins;
+    font-weight: 200;
+    }
+
+.grid-item1 .y{
+    font-size: 200px;
+    font-weight: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    font-family: Dancing Script;
+    opacity: 20%;
+    position: absolute;
+}
+
+.grid-item2{
+    background-color: #7aa490;
+    color: white;
+    font-size: 30px;
+    height: 350px;
+    font-family: Cormorant Garamond;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0;
+    margin: 0;
+}
+.songtext{
+    margin: 0;
+    padding-right: 10px;
+    padding-left: 30px;
+    font-size: 25px;
+}
+.songlogo{
+    margin-right: 0;
+    padding-bottom: 12px;
+}
+
+
+.grid-item3{
+    background: url(img/cv1.jpg) no-repeat;
+    background-size: cover;
+    padding: 10px;
+    color: white;
+    font-size: 30px;
+    height: 740px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.cv1{
+    border-radius: 30px;
+}
+.grid-item4{
+    background-color: #005e4f;
+    padding: 10px;
+    color: white;
+    font-size: 30px;
+    height: 350px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+.church{
+    margin-left: 30px;
+}
+
+.churchtext1{
+    font-family: dancing script;
+}
+.churchtext2{
+    font-family: Poppins;
+    font-weight: 200;
+    margin-bottom: 0;
+    padding: 0;
+    font-size: 26px;
+}
+.churchtext3{
+    font-family: Poppins;
+    font-weight: 300;
+    margin-top: 0;
+    padding: 0;
+    font-size: 20px;
+}
+button{
+    outline: none;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 13px 23px;
+    border: 1px solid white;
+    transition: box-shadow 0.2s ease 0s, -ms-transform 0.1s ease 0s, -webkit-transform 0.1s ease 0s, transform 0.1s ease 0s;
+    background: transparent;
+    color: #fff;
+}
+
+button:hover{
+    color: black;
+    border: 1px solid black;
+}
+
+.grid-item5{
+    background: url(img/churchbackground.jpg) no-repeat;
+    background-size: cover;
+    padding: 10px;
+    color: white;
+    font-size: 30px;
+    height: 450px;
+}
+.grid-item6{
+    background-color: #005e4f;
+    padding: 10px;
+    color: white;
+    font-size: 30px;
+    height: 350px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    }
+.jardin{
+        margin-right: 30px;
+    }
+.jardin1{
+        font-family: dancing script;
+}
+.jardin2{
+        font-family: Poppins;
+        font-weight: 200;
+        margin-bottom: 0;
+        padding: 0;
+        font-size: 26px;
+}
+.jardin3{
+        font-family: Poppins;
+        font-weight: 300;
+        margin-top: 0;
+        padding: 0;
+        font-size: 20px;
+}
+
+.grid-item7{
+    background: url(img/jardinbackground.jpeg) no-repeat;
+    background-size: cover;
+    padding: 10px;
+    color: white;
+    font-size: 30px;
+    height: 400px;
+}
+.grid-item8{
+    background-color: #7aa490;
+    padding: 10px;
+    color: black;
+    font-size: 50px;
+    height: 400px;
+    font-family: dancing script;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+
+}
+.dresscode{
+    padding: 0;
+    margin: 0;
+}
+/*.dresscode{
+    padding-top: 40px;
+}*/
+
+
+.grid-item9{
+    background-color: lightgrey;
+    padding: 10px;
+    color: white;
+    font-size: 30px;
+    height: 400px;
+}
