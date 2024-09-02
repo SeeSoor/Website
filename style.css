@@ -37,6 +37,7 @@ a{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    box-sizing: border-box;
 }
 
 .grid-item1 p{
@@ -86,6 +87,7 @@ margin-top: 150px;
     align-items: center;
     margin-right: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 .songtext{
     margin: 0;
@@ -96,6 +98,10 @@ margin-top: 150px;
 .songlogo{
     margin-right: 0;
     padding-bottom: 12px;
+}
+
+.img{
+    width: 400px;
 }
 
 
@@ -109,7 +115,6 @@ margin-top: 150px;
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
 .cv1{
@@ -242,4 +247,141 @@ button:hover{
     color: white;
     font-size: 30px;
     height: 400px;
+}
+
+
+
+
+
+@media(max-width: 500px){
+
+/*Grid 1*/
+.grid-item1{
+    max-height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid-item1 .y{
+    font-size: 110px;
+    padding-bottom: 50px;
+}
+.grid-item1 .anfitrion{
+    font-size: 50px;
+}
+.grid-item1 .sdt{
+    font-size: 25px;
+    padding-bottom: 90px;
+}
+
+/*Grid 2*/
+.grid-item2{
+    max-height: 310px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.songtext{
+    margin: 0;
+    font-size: 15px;
+}
+.songlogo{
+    margin-right: 0;
+    padding-bottom: 12px;
+}
+.img{
+    width: 250px;
+}
+
+
+/*Grid 3*/
+.grid-item3{
+    max-height: 620px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*Grid 4*/
+.grid-item4{
+    max-height: 410px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.church{
+    margin: 10px;
+}
+.churchtext1{
+    font-family: dancing script;
+    margin: 20px;
+}
+.churchtext2{
+    font-family: Poppins;
+    font-weight: 200;
+    font-size: 15px;
+    margin: 20px;
+}
+.churchtext3{
+    font-family: Poppins;
+    font-weight: 300;
+    margin: 20px;
+    font-size: 20px;
+}
+
+/*Grid 5*/
+.grid-item5{
+    max-height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*Grid 6*/
+.grid-item6{
+    max-height: 310px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.jardin{
+    margin: 20px;
+}
+.jardin1{
+    font-family: dancing script;
+    margin: 20px;
+}
+.jardin2{
+    font-family: Poppins;
+    font-weight: 200;
+    margin-bottom: 0;
+    padding: 0;
+    font-size: 15px;
+    margin: 20px;
+}
+.jardin3{
+    font-family: Poppins;
+    font-weight: 300;
+    font-size: 20px;
+    margin: 20px;
+}
+
+/*Grid 7*/
+.grid-item7{
+    max-height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*Grid 8*/
+.grid-item8{
+    max-height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
 }
